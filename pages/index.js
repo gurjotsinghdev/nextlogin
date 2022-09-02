@@ -33,13 +33,13 @@ export default function Home() {
 
             <div>
             <input className="text-input" type="password" name="password" required placeholder="Password" ></input>
-            <i class="fa fa-eye" ></i>
+            {/* <i class="fa fa-eye" ></i>  */}
             </div>
             <label>Password</label>
 
             <p className="help-message">Minimum 8 characters</p>
             <button type="submit">Next</button>
-            <p className="privacy">By clicking the "Next" button, you agree to creating a free account, and to <a href="#">Terms of Service</a> and  <a href="#">Privacy Policy.</a></p>
+            <p className="privacy">By clicking the &quotNext&quot button, you agree to creating a free account, and to <a href="#">Terms of Service</a> and  <a href="#">Privacy Policy.</a></p>
 
           </form>
 
