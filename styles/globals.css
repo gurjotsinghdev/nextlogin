@@ -1,26 +1,137 @@
-html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  font-family: 'Poppins', sans-serif;
+  color:black;
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+label {
+  color: black;
 }
+
+a {
+  text-decoration: none;
+  color: #286efa;
+  font-weight: 600;
+}
+
+main.container {
+  display: grid;
+  grid-template-columns: 4.685fr 3fr;
+  grid-template-rows: 100vh;
+}
+
+.form-section {
+  background-color: #f9f9f9;
+  color:#323232;
+  padding-left: 190px; 
+  padding-top: 95px;
+  position: relative;
+}
+
+.form-section h2 {
+  font-size: 35px;
+  padding-bottom: 27px;
+  font-weight: bold;
+}
+
+.form-section p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+p.help-message {
+  font-size: 14.5px;
+  color:#32323290;
+
+}
+
+.info-section {
+  background-color: #286efa;
+  color:white;
+  padding: 32.3vh 150px;
+  
+}
+
+.info-section h2 {
+  font-size: 40px;
+  padding-top: 25px;
+
+  padding-bottom: 35px;
+  padding-left: 10px;
+  text-align: center;
+
+}
+
+.info-section p {
+  font-size: 21.5px;
+  text-align: left;
+  line-height: 1.6;
+  padding: 30px 25px;
+}
+
+form.contact  {
+  display: grid;
+  
+}
+
+input, button {
+  width: 570px;
+  padding: 18px 15px;
+  margin-top: 30px;
+ 
+  font-size: 20px;
+  border: 1px solid #32323210;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color:#323232;
+
+}
+
+
+
+select {
+  width: 602px;
+  padding: 18px 15px 18px 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  border: 1px solid #32323210;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color:#32323290;
+}
+
+button {
+  background-color: #ededed;
+  width: 602px;
+  color:#32323260;
+  font-weight: 500;
+
+}
+
+
+
+p.privacy {
+  font-size: 15px;
+  padding-right: 350px;
+  line-height: 1.8;
+}
+
+.fa-eye {
+  color: #32323299;
+  margin-left: -30px;
+}
+
+label {
+  margin-top: -75px;
+  padding-left: 11px;
+  display: none;
+}
+
+input:focus+label {
+  display: unset;
+}
+
+
+
