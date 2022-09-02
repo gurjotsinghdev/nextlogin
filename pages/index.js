@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className="container">
         <div className="form-section">
-          <h2>Let &apos; s set up your account</h2>
+          <h2>Let&apos;s set up your account</h2>
           <p>Already have an account? &nbsp;&nbsp;<a href="#">Sign in</a></p>
           <form className="contact" action="/send-data-here" method="post">
             <input className="text-input" type="text" id="your-name" name="your-name" required placeholder="Your name" />
@@ -39,7 +39,7 @@ export default function Home() {
 
             <p className="help-message">Minimum 8 characters</p>
             <button type="submit">Next</button>
-            <p className="privacy">By clicking the &quotNext&quot button, you agree to creating a free account, and to <a href="#">Terms of Service</a> and  <a href="#">Privacy Policy.</a></p>
+            <p className="privacy">By clicking the &quot;Next&quot; button, you agree to creating a free account, and to <a href="#">Terms of Service</a> and  <a href="#">Privacy Policy.</a></p>
 
           </form>
 
